@@ -1,0 +1,28 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+*.exe
+*.test
+*.prof
+
+#Ignore VIM
+.lvimrc
+*.go.swp
+*.swp
+
+#Ignore Mac
+.DS_Store
+
+#Coverage files
+coverage.out
+
+#Enviroment files
+.env
+
+./config
