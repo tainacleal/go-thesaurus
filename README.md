@@ -1,7 +1,9 @@
 # go-thesaurus
+
 Super simple wrapper written in go for Big Huge Thesaurus API
 
 ###Basic Usage
+
 ```go
 thesa := thesaurus.Configure("yourapikey")
 
@@ -14,3 +16,5 @@ if err!=nil{
 fmt.Println(response)
 
 ```
+
+Testing this change
